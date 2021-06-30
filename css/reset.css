@@ -1,0 +1,154 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+.carouselExampleIndicators {
+  text-decoration: none;
+}
+a:hover .btn-group { text-decoration: none }
+a .btn-group:hover { text-decoration: none }
+a:hover .btn-group .btn { text-decoration: none }
+a .btn-group .btn:hover { text-decoration: none }
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+* {
+	box-sizing: border-box;
+  }
+a {
+	text-decoration: none; /* no underline */
+  }
+  
+button {
+	outline: none;
+}
+  /* default */
+.bold {
+	font-weight: 700;
+}
+.centre {
+    text-align: center;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+.dib {
+    display: inline-block;
+}
+.border-right {
+	border-right: 1px solid black;
+}
+.border-bottom {
+	border-bottom: 1px solid black;
+}
+.block {
+	display: block;
+}
+.clear {
+	clear: both;
+}
+.f-left {
+	float: left;
+}
+.f-right {
+	float: right;
+}
+
+.poppins {
+	font-family: 'Poppins';
+}
+.playfair{
+	font-family: 'Playfair Display';
+}
+.flex {
+	display: flex;
+}
+textarea { 
+    border-style: none; 
+    border-color: Transparent; 
+    overflow: auto;        
+  }
+
+.bpg {
+	font-family: "BPG Banner QuadroSquare Caps", sans-serif;
+}
+.ucnobi {
+	font-family: 'BPG Ucnobi';
+}
+
+
+
+/* ----- */
+
+.effect2
+{
+  position: relative;
+}
+.effect2:before, .effect2:after
+{
+  z-index: -1;
+  position: absolute;
+  content: "";
+  bottom: 15px;
+  left: 10px;
+  width: 50%;
+  top: 80%;
+  max-width:300px;
+  background: #777;
+  -webkit-box-shadow: 0 15px 10px #777;
+  -moz-box-shadow: 0 15px 10px #777;
+  box-shadow: 0 15px 10px #777;
+  -webkit-transform: rotate(-3deg);
+  -moz-transform: rotate(-3deg);
+  -o-transform: rotate(-3deg);
+  -ms-transform: rotate(-3deg);
+  transform: rotate(-3deg);
+}
+.effect2:after
+{
+  -webkit-transform: rotate(3deg);
+  -moz-transform: rotate(3deg);
+  -o-transform: rotate(3deg);
+  -ms-transform: rotate(3deg);
+  transform: rotate(3deg);
+  right: 10px;
+  left: auto;
+}
