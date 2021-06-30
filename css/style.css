@@ -3,14 +3,14 @@
     margin-inline: auto;
 }
 /* Header  */
-/* header {
+header {
     background-image: url(../img/header1.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     height: 80vh;
-} */
+}
 .logo {
     font-size: 2rem;
 }
@@ -21,58 +21,15 @@ nav .container,nav ul{
 
 }
 nav {
-    padding: 1.5rem 0;
-    background-color: #e8ecf1d3;
+    padding: 2rem 0;
+    background-color: #f1f6f9d8;
 }
 nav ul {
     width: 40%;
 }
 nav a {
-    color: #000;
+    color: rgb(0, 0, 0);
     font-size: 1.1rem;
 }
+/* ----- */
 
-
-/* --------- */
-/* Header */
-.large-header {
-	position: relative;
-	width: 100%;
-	background: #333;
-	overflow: hidden;
-	background-size: cover;
-	background-position: center center;
-	z-index: 1;
-}
-
-#large-header {
-	background-image: url('https://www.marcoguglie.it/Codepen/AnimatedHeaderBg/demo-1/img/demo-1-bg.jpg');
-}
-
-.main-title {
-	position: absolute;
-	margin: 0;
-	padding: 0;
-	color: #f9f1e9;
-	text-align: center;
-	top: 50%;
-	left: 50%;
-	-webkit-transform: translate3d(-50%,-50%,0);
-	transform: translate3d(-50%,-50%,0);
-}
-
-.demo-1 .main-title {
-	text-transform: uppercase;
-	font-size: 4.2em;
-	letter-spacing: 0.1em;
-}
-
-.main-title .thin {
-	font-weight: 200;
-}
-
-@media only screen and (max-width : 768px) {
-	.demo-1 .main-title {
-		font-size: 3em;
-	}
-}
