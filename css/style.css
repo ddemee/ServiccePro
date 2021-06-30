@@ -8,6 +8,10 @@ img {
 section {
     padding: 4rem 0;
 }
+h1 {
+    font-size: 5rem;
+    margin-bottom: 2rem;
+}
 h2 {
     margin-bottom: 1rem;
     font-size: 1.5rem;
@@ -24,6 +28,7 @@ header {
     background-size: cover;
     background-attachment: fixed;
     height: 80vh;
+    position: relative;
 }
 .logo {
     font-size: 2rem;
@@ -44,6 +49,13 @@ nav ul {
 nav a {
     color: rgb(0, 0, 0);
     font-size: 1.1rem;
+}
+.main-text {
+
+    color: white;
+    width: 50%;
+    margin: auto;
+    padding-top: 13%;
 }
 /* ----- */
 .split {
