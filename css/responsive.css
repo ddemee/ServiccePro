@@ -1,16 +1,36 @@
 
-@media (min-width: 576px) {  }
+@media (min-width: 576px) { 
+    .icons {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .icons div {
+        width: 48%;
+    }
+ }
 
 
 @media (min-width: 768px) {
+    .icons div {
+        width: 40%;
+    }
 
  }
 
 
-@media (min-width: 992px) { }
+@media (min-width: 992px) { 
+    .icons div {
+        width: 23%;
+    }
+}
 
 
-@media (min-width: 1200px) { }
+@media (min-width: 1200px) { 
+    .icons div {
+        width: 18%;
+    }
+}
 
 
 @media (min-width: 1400px) {  }

@@ -2,6 +2,19 @@
 .container {
     margin-inline: auto;
 }
+img {
+    width: 100%;
+}
+section {
+    padding: 4rem 0;
+}
+h2 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    line-height: 1.8;
+    
+
+}
 /* Header  */
 header {
     background-image: url(../img/header1.jpg);
@@ -32,4 +45,28 @@ nav a {
     font-size: 1.1rem;
 }
 /* ----- */
+.split {
+    text-align: center;
+}
+.split img {
+    max-width:90px ;
+    width: 100%;
+    margin-bottom: 1rem;
+    
+}
+.icons {
+    margin-top: -10rem;
+}
+.icons div {
+    padding: 4rem 0;
+    margin-bottom: 2rem;
+    background-color: #F3F3F3;
+    border-radius: 4px;
+    box-shadow: inset 0px 0px 25px -1px #BFBFBF;
+    -moz-transform: translate(1px, 0px) skew(-4deg, 0deg);
+    -webkit-transform: translate(1px, 0px) skew(-4deg, 0deg);
+    -o-transform: translate(1px, 0px) skew(-4deg, 0deg);
+    -ms-transform: translate(1px, 0px) skew(-4deg, 0deg);
+    transform: translate(1px, 0px) skew(-4deg, 0deg);
+}
 
