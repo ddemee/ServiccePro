@@ -114,7 +114,9 @@ textarea {
 	font-family: 'BPG Ucnobi';
 }
 
-
+.relative {
+  position: relative;
+}
 
 /* ----- */
 
