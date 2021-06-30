@@ -12,6 +12,7 @@ h2 {
     margin-bottom: 1rem;
     font-size: 1.5rem;
     line-height: 1.8;
+    color: white;
     
 
 }
@@ -57,6 +58,9 @@ nav a {
 .icons {
     margin-top: -10rem;
 }
+.icons a {
+    color: white;
+}
 .icons div {
     padding: 4rem 0;
     margin-bottom: 2rem;
@@ -69,4 +73,33 @@ nav a {
     -ms-transform: translate(1px, 0px) skew(-4deg, 0deg);
     transform: translate(1px, 0px) skew(-4deg, 0deg);
 }
+.icons div:first-child{
+    background-image: url(../img/11.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.icons div:nth-child(2){
+    background-image: url(../img/12.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.icons div:nth-child(3){
+    background-image: url(../img/13.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.icons div:nth-child(4){
+    background-image: url(../img/14.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
 
