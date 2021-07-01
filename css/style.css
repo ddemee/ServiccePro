@@ -70,6 +70,7 @@ nav a {
     border-radius: 0px 0px 32px 32px;
     transition: ease all 0.5s;
     color: #FFFFFF;
+    
 }
 .logo:hover {
     color: #133169;
@@ -194,3 +195,4 @@ border-radius: 0px 80px 0px 80px;
     max-width: 300px;
     width: 100%;
 }
+/* FOOTER */

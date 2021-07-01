@@ -230,3 +230,9 @@
         left: 250px;
     }
  }
+ @media (min-width: 1680px) {
+    .performnac img {
+        
+        left: 350px;
+    }
+ }
