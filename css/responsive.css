@@ -54,7 +54,7 @@
         
     }
   
-    .test {
+    .test1 {
         display: flex;
         align-content: center;
         justify-content: space-between;
@@ -119,6 +119,12 @@
         z-index: 55;
         
     }
+    .notebook {
+        position: absolute;
+        top: 220px;
+        left: 100px;
+    }
+    
    
     .counter  p {
     color: white;
