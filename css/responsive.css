@@ -8,6 +8,13 @@
         align-content: center;
         justify-content: space-between;
     }
+    .social,.split {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 0;
+    
+    }
     
  }
 
@@ -46,6 +53,7 @@
         margin-left: 100px;
         
     }
+  
     .test {
         display: flex;
         align-content: center;
@@ -172,6 +180,15 @@
     h1,h3 {
         font-size: 2.2rem;
     }
+      /* HEADER */
+      .nav-links {
+        display: flex;
+        width: 60%;
+    
+    }
+    .burgerbar {
+       display: none;
+    }
 
     .icons {
         width: 50%;
@@ -209,7 +226,12 @@
 
 @media (min-width: 1200px) { 
   
-
+    .nav-links {
+        display: flex;
+        width: 45%;
+    
+    }
+    
     .icons {
         width: 50%;
     }

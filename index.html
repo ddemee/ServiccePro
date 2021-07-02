@@ -25,13 +25,30 @@
         <div class="container">
             <nav>
                 <a class="logo" href="index.html">ServicePro</a>
-                <ul>
+                <ul class="nav-links">
                     <li><a href="">მთავარი</a></li>
                     <li><a href="">ჩვენს შესახებ</a></li>
                     <li><a href="">მომსახურება</a></li>
                     <li><a href="">დახმარება</a></li>
                     <li><a href="">კონტაქტი</a></li>
                 </ul>
+                <button class="btn btn-primary burgerbar" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fas fa-bars"></i></button>
+
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                <div class="offcanvas-header">
+                    <h5 id="offcanvasRightLabel"></h5>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul>
+                        <li><a href="">მთავარი</a></li>
+                        <li><a href="">ჩვენს შესახებ</a></li>
+                        <li><a href="">მომსახურება</a></li>
+                        <li><a href="">დახმარება</a></li>
+                        <li><a href="">კონტაქტი</a></li>
+                    </ul>
+                </div>
+                </div>
             </nav>
 
         </div>
@@ -191,7 +208,32 @@
 
     </section>
     <footer>
-        
+        <div class="container">
+                <div class="logo2">
+                    <a href="index.html">ServicePro</a>
+                </div>
+                
+                <hr>
+                <div class="split">
+                    <p>Copyright © 2021 All Rights Reserved by IT Tech.| Made By Dima Demetrashvili</p>
+                    <div class="social">
+                        <div class="fb">
+                            <i class="fab fa-facebook-f "></i>
+                        </div>
+                        <div class="insta">
+                            <i class="fab fa-instagram "></i>
+                        </div>
+                        <div class="in">
+                            <i class="fab fa-linkedin-in "></i>
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>

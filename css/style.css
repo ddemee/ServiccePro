@@ -45,7 +45,7 @@ img {
 }
 
 /* Header */
-nav , nav ul{
+nav , .nav-links{
     
     display: flex;
     align-items: center;
@@ -54,10 +54,10 @@ nav , nav ul{
 header {
     background-color: #212429;
 }
-nav ul {
+.nav-links {
     width: 45%;
 }
-nav a {
+.nav-links a {
     font-size: 1.2rem;
     color: #D1E0FB;
 }
@@ -75,6 +75,35 @@ nav a {
 .logo:hover {
     color: #133169;
 }
+.burgerbar {
+    font-size: 1.5rem;
+    color: white;
+}
+.offcanvas-body,.offcanvas-header  {
+    background-color: #3F454D;
+}
+.offcanvas-body ul {
+    flex-direction: column;
+    text-align: center;
+}
+.offcanvas-body li {
+    margin-top: 1.5rem;
+}
+.offcanvas-body a {
+    font-size: 1.5rem;
+    color: #D1E0FB;
+}
+.offcanvas-body li:hover{
+    text-shadow: 0 0 10px #FFFFFF, 2px 2px 2px rgba(74,32,20,0);
+
+}
+.nav-links li:hover{
+    text-shadow: 0 0 10px #FFFFFF, 2px 2px 2px rgba(74,32,20,0);
+
+}
+.nav-links {
+    display: none;
+}
 /* main */
 .main-text {
     padding: 15% 0;
@@ -83,6 +112,7 @@ nav a {
 .main-button {
     margin: 1rem 0;
     background-color: #377DFF;
+    border-radius: 25px;
     
 }
 
@@ -196,3 +226,60 @@ border-radius: 0px 80px 0px 80px;
     width: 100%;
 }
 /* FOOTER */
+footer {
+    padding: 2rem 0;
+    background-color: #202329;
+}
+.logo2{
+    text-align: center;
+    margin: 0 auto;
+    font-size: 3rem;
+}
+footer hr {
+    color: #bcc1c7;
+    
+}
+footer p {
+    width: 100%;
+    font-size: 1rem;
+    margin: 0
+}
+.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem
+
+}
+.social .fb,.insta,.in{
+    background-color: #bcc1c7;
+    border-radius: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1rem;
+    padding: 6px 12px;
+    transition: all ease 0.25s ;
+    width: 45px;
+}
+.social .fb:hover {
+    background-color: #3b5998;
+    color: white;
+}
+.social .insta:hover {
+    background: #8A3AB9;
+    background: -moz-linear-gradient(top, #8A3AB9 0%, #BC2A8D 100%);
+    background: -webkit-linear-gradient(top, #8A3AB9 0%, #BC2A8D 100%);
+    background: linear-gradient(to bottom, #8A3AB9 0%, #BC2A8D 100%);
+    color: white;
+}   
+.social .in:hover {
+    background-color: #0e76a8;
+    color: white;
+}
+
+.social i {
+    font-size: 2rem;
+
+    
+}
